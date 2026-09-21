@@ -1,5 +1,6 @@
 {
   "public_key": "sE0cMC-BlYwE-JwzfTXoZNPEW-XpSAhWZrVYXiXugnY=",
-  "purpose": "model-work-node.ota-publisher.v1",
+  "purpose": "opensight.installer-manifest.v1",
   "version": 1
 }
+

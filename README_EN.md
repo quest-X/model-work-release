@@ -2,34 +2,34 @@
 
 [中文](README.md) | **English**
 
-OpenSight unified-suite release index and approved public artifacts.
+Public releases for the OpenSight one-click installer.
 
 ## Scope
 
-Each `model-work-*` repository publishes normal releases under its own version.
-This repository is used only for an explicitly requested unified release, such
-as a major OpenSight or OTA suite. Private components are recorded as necessary
-version metadata only; their source, private packages, download locations,
-credentials, and internal configuration are not published here.
+Each `model-work-*` repository continues to publish its own releases. This
+repository publishes the public installer, signed manifest, and checksums. The
+installer selects components and obtains private artifacts only after
+authorization. Private source, packages, download locations, credentials, and
+internal configuration are not published here.
 
 ## Versioning
 
-- OpenSight suite versions start at `v0.0.1` and advance independently.
+- OpenSight installer versions start at `v0.0.1` and advance independently.
 - Component repository versions remain independent.
-- Normal component releases do not automatically create suite versions.
-- A suite tag and Release are created only after explicit authorization.
-- No unified suite version is currently published.
+- Normal component releases do not automatically create installer versions.
+- A new installer is released only when installation flow, compatibility, or
+  OTA behavior changes.
 
 ## Installers
 
-Each unified suite release lists only installers that have been built, tested,
-and approved for public distribution. Only files actually attached to a Release
-are downloadable artifacts.
+Releases provide entry points for Linux, macOS, Windows, and NVIDIA Jetson
+Linux. The installer supports component multi-select and Frontend `main` /
+`commercial` channel selection.
 
 ## Trust
 
-- Suite manifests are signed with the Ed25519 publisher in
-  [`suite.publisher.public.json`](suite.publisher.public.json).
+- Installer manifests are signed with the Ed25519 publisher in
+  [`installer.publisher.public.json`](installer.publisher.public.json).
 - Clients must pin the publisher key and approved HTTPS origins locally.
 - Public artifacts must have an exact size and SHA-256 digest.
 - GitHub transport does not replace manifest signature verification.

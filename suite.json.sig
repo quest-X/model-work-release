@@ -1,5 +1,5 @@
 {
   "algorithm": "Ed25519",
   "purpose": "opensight.suite-manifest.v1",
-  "signature": "tobx7PgtMUlEccVj1Q_S-Vyuoi9GN1heFSNwwUlIbF5GXZlwEPOFUK7uKDPclVk4frNtjhHLs4AlJNytGvpGDQ=="
+  "signature": "fshkJyfO4HyZ2gD_-WvQOLAM0iGOyvEa9l_on0IVA_S5BFrnhaW_35fcCg7U7RUTKKOzo6D4sakJWIcXdspmCg=="
 }

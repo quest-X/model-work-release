@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "purpose": "opensight.suite-manifest.v1",
-  "suite_version": "1.1.4",
+  "suite_version": "1.1.5",
   "released_at": "2026-09-21",
-  "summary_en": "Bilingual installer matrix preview with public metadata only.",
-  "summary_zh": "中英双语安装包矩阵预览，仅发布公开元数据。",
+  "summary_zh": "中文在上、英文换行显示的安装包矩阵预览。",
+  "summary_en": "Installer matrix preview with Chinese first and English on the next line.",
   "components": [
     {
       "name": "model-work-frontend",
@@ -44,59 +44,59 @@
   ],
   "installer_targets": [
     {
-      "platform": "windows",
-      "display_arch": "x64",
-      "internal_arch": ["x86_64", "amd64"],
-      "filename": "OpenSight-1.1.4-windows-x64.exe",
-      "status": "planned"
-    },
-    {
-      "platform": "windows",
-      "display_arch": "ARM64",
-      "internal_arch": ["aarch64", "arm64"],
-      "filename": "OpenSight-1.1.4-windows-arm64.exe",
-      "status": "planned"
-    },
-    {
       "platform": "linux",
       "display_arch": "x64",
       "internal_arch": ["x86_64", "amd64"],
-      "filename": "OpenSight-1.1.4-linux-x64.run",
+      "filename": "OpenSight-1.1.5-linux-x64.run",
       "status": "planned"
     },
     {
       "platform": "linux",
       "display_arch": "ARM64",
       "internal_arch": ["aarch64", "arm64"],
-      "filename": "OpenSight-1.1.4-linux-arm64.run",
-      "status": "planned"
-    },
-    {
-      "platform": "linux-jetson",
-      "display_arch": "ARM64",
-      "internal_arch": ["aarch64", "arm64"],
-      "filename": "OpenSight-1.1.4-linux-arm64-jetson.run",
+      "filename": "OpenSight-1.1.5-linux-arm64.run",
       "status": "planned"
     },
     {
       "platform": "macos",
       "display_arch": "x64",
       "internal_arch": ["x86_64"],
-      "filename": "OpenSight-1.1.4-macos-x64.pkg",
+      "filename": "OpenSight-1.1.5-macos-x64.pkg",
       "status": "planned"
     },
     {
       "platform": "macos",
       "display_arch": "ARM64",
       "internal_arch": ["arm64"],
-      "filename": "OpenSight-1.1.4-macos-arm64.pkg",
+      "filename": "OpenSight-1.1.5-macos-arm64.pkg",
       "status": "planned"
     },
     {
       "platform": "macos",
       "display_arch": "Universal",
       "internal_arch": ["universal2"],
-      "filename": "OpenSight-1.1.4-macos-universal.pkg",
+      "filename": "OpenSight-1.1.5-macos-universal.pkg",
+      "status": "planned"
+    },
+    {
+      "platform": "windows",
+      "display_arch": "x64",
+      "internal_arch": ["x86_64", "amd64"],
+      "filename": "OpenSight-1.1.5-windows-x64.exe",
+      "status": "planned"
+    },
+    {
+      "platform": "windows",
+      "display_arch": "ARM64",
+      "internal_arch": ["aarch64", "arm64"],
+      "filename": "OpenSight-1.1.5-windows-arm64.exe",
+      "status": "planned"
+    },
+    {
+      "platform": "linux-jetson",
+      "display_arch": "ARM64",
+      "internal_arch": ["aarch64", "arm64"],
+      "filename": "OpenSight-1.1.5-linux-arm64-jetson.run",
       "status": "planned"
     }
   ],

@@ -2,26 +2,29 @@
 
 [中文](README.md) | **English**
 
-OpenSight public suite release index and approved public artifacts.
+OpenSight unified-suite release index and approved public artifacts.
 
 ## Scope
 
-Each release describes the complete `model-work-*` suite while every component
-keeps its own version. Private components are recorded as version metadata only;
-their source, packages, download locations, credentials, and internal
-configuration are not published here.
+Each `model-work-*` repository publishes normal releases under its own version.
+This repository is used only for an explicitly requested unified release, such
+as a major OpenSight or OTA suite. Private components are recorded as necessary
+version metadata only; their source, private packages, download locations,
+credentials, and internal configuration are not published here.
 
 ## Versioning
 
-- Repository tags are consecutive OpenSight suite versions.
-- Component versions remain independent.
-- Unchanged components remain listed and are marked `unchanged`.
-- A new suite tag is required for any published manifest change.
+- OpenSight suite versions start at `v0.0.1` and advance independently.
+- Component repository versions remain independent.
+- Normal component releases do not automatically create suite versions.
+- A suite tag and Release are created only after explicit authorization.
+- No unified suite version is currently published.
 
 ## Installers
 
-See [`INSTALLERS.md`](INSTALLERS.md) for the complete platform and architecture
-naming matrix. Only files marked `available` are published installers.
+Each unified suite release lists only installers that have been built, tested,
+and approved for public distribution. Only files actually attached to a Release
+are downloadable artifacts.
 
 ## Trust
 

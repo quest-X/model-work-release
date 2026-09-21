@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "purpose": "opensight.suite-manifest.v1",
+  "suite_version": "1.1.3",
+  "released_at": "2026-09-21",
+  "summary": "First complete model-work suite baseline with public metadata only.",
+  "components": [
+    {
+      "name": "model-work-frontend",
+      "version": "2.9.1",
+      "revision": "5ffe61383425a91694b1054b13ac0c2dcf40e245",
+      "change": "added_to_suite_manifest",
+      "distribution": "public"
+    },
+    {
+      "name": "model-work-backend",
+      "version": "1.1.0",
+      "revision": "fca3e4edbb6a229f6dcd4f8b8135468ab06b59fb",
+      "change": "added_to_suite_manifest",
+      "distribution": "private"
+    },
+    {
+      "name": "model-work-node",
+      "version": "1.1.2",
+      "revision": "a8d0e6e1b0700184c68efcd0941dd94e863ca076",
+      "change": "added_to_suite_manifest",
+      "distribution": "private"
+    },
+    {
+      "name": "model-work-extension",
+      "version": null,
+      "revision": "17b0498d6229e0b35201c45c0cd1c118750269c5",
+      "change": "added_to_suite_manifest",
+      "distribution": "private"
+    },
+    {
+      "name": "model-work-monitor",
+      "version": null,
+      "revision": "8268898d0eaef74ff18cebe23f33a68b53547249",
+      "change": "added_to_suite_manifest",
+      "distribution": "private"
+    }
+  ],
+  "public_artifacts": [],
+  "private_artifacts": {
+    "published_here": false,
+    "locations_disclosed": false
+  }
+}

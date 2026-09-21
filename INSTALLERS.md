@@ -13,8 +13,7 @@ public distribution.
 | Linux | Linux x64 | `x86_64` / `amd64` | `OpenSight-1.1.5-linux-x64.run` | 规划中<br>Planned |
 | Linux | Linux ARM64 | `aarch64` / `arm64` | `OpenSight-1.1.5-linux-arm64.run` | 规划中<br>Planned |
 | macOS Intel | macOS x64 | `x86_64` | `OpenSight-1.1.5-macos-x64.pkg` | 规划中<br>Planned |
-| macOS Apple 芯片<br>macOS Apple silicon | macOS ARM64 | `arm64` | `OpenSight-1.1.5-macos-arm64.pkg` | 规划中<br>Planned |
-| macOS 通用包<br>macOS universal | macOS Universal | `universal2` | `OpenSight-1.1.5-macos-universal.pkg` | 规划中<br>Planned |
+| macOS Apple silicon | macOS ARM64 | `arm64` | `OpenSight-1.1.5-macos-arm64.pkg` | 规划中<br>Planned |
 | Windows 10/11 | Windows x64 | `x86_64` / `amd64` | `OpenSight-1.1.5-windows-x64.exe` | 规划中<br>Planned |
 | Windows 11 ARM | Windows ARM64 | `aarch64` / `arm64` | `OpenSight-1.1.5-windows-arm64.exe` | 规划中<br>Planned |
 | NVIDIA Jetson Linux | Linux ARM64 Jetson | `aarch64` / `arm64` | `OpenSight-1.1.5-linux-arm64-jetson.run` | 规划中<br>Planned |

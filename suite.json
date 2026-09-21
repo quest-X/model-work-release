@@ -72,13 +72,6 @@
       "status": "planned"
     },
     {
-      "platform": "macos",
-      "display_arch": "Universal",
-      "internal_arch": ["universal2"],
-      "filename": "OpenSight-1.1.5-macos-universal.pkg",
-      "status": "planned"
-    },
-    {
       "platform": "windows",
       "display_arch": "x64",
       "internal_arch": ["x86_64", "amd64"],

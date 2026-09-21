@@ -16,6 +16,11 @@ OpenSight 系列公开版本索引与经审查的公开制品仓库。
 - 未变化的组件仍列入清单并标记为 `unchanged`。
 - 已发布清单如需修改，必须使用新的套件版本。
 
+## 安装包
+
+完整平台与架构命名见 [`INSTALLERS.md`](INSTALLERS.md)。只有状态为
+`available` 的文件才代表已经发布的可安装制品。
+
 ## 信任
 
 - 套件清单使用 [`suite.publisher.public.json`](suite.publisher.public.json)

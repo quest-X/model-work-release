@@ -18,6 +18,11 @@ configuration are not published here.
 - Unchanged components remain listed and are marked `unchanged`.
 - A new suite tag is required for any published manifest change.
 
+## Installers
+
+See [`INSTALLERS.md`](INSTALLERS.md) for the complete platform and architecture
+naming matrix. Only files marked `available` are published installers.
+
 ## Trust
 
 - Suite manifests are signed with the Ed25519 publisher in
